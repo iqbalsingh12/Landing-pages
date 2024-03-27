@@ -486,21 +486,32 @@ ul.center-logo {
     font-weight: 400;
     line-height: 22px;
     font-size: 16px;
-}  .ready-to-go {
-    display: flex;
+}.ready-to-go {
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
-  } .ready-lft {
-    display: flex;
+    float: left;
+    width: 100%;
+}.ready-lft {
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     margin-bottom: 20px;
-  }
+    width: 50%;
+    float: left;
+} .ready-lft {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .ready-lft span {
     color: #fff;
     font-size: 80px;
@@ -508,6 +519,7 @@ ul.center-logo {
     margin-bottom: 20px;
     display: block;
     line-height: 90px;
+    text-align: left;
 }.ready-lft span b {
     font-weight: 600;
 }
@@ -518,6 +530,7 @@ ul.center-logo {
     margin: 0;
     font-weight: 400;
     margin-bottom: 30px;
+    text-align: left;
 }.conts-us {
     margin-bottom: 20px;
     display: block;
@@ -557,6 +570,7 @@ ul.center-logo {
 }.contact-form form {
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }.contact-form {
     float: left;
     width: 100%;
